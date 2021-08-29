@@ -19,5 +19,4 @@ class MemberServiceTest {
     @Test
     void findOne() {
     }
-
 }
