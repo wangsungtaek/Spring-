@@ -3,6 +3,7 @@ package taek.springstudy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import taek.springstudy.aop.TimeTraceAop;
 import taek.springstudy.repository.JdbcMemberRepository;
 import taek.springstudy.repository.JdbcTemplateMemberRepository;
 import taek.springstudy.repository.JpaMemberRepository;
